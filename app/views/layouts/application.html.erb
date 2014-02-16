@@ -21,7 +21,7 @@
  
       <!-- Be sure to leave the brand out there if you want it shown -->
       <a class="brand" href="#">Firehose App</a>
- 
+      <% link_to 'Firehose App', root_path, :class => 'brand' %>
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
@@ -33,16 +33,16 @@
 				<%= link_to 'A Privacy Statement', "http://www.google.com/intl/en/policies/privacy/" %>
         	</li>
         	<li>
-				<%= link_to 'Home', "#" %>
+				<%= link_to 'Home', root_path %>
         	</li>
         	<li>
-				<%= link_to 'Services', "#" %>
+				<%= link_to 'Services', "pics/new" %>
         	</li>
         	<li>
-				<%= link_to 'Pictures', "pics" %>
+				<%= link_to 'Pictures', pics_path %>
         	</li>
         	<li>
-        		<%= link_to 'New Pic', "pics/new" %>
+        		<%= link_to 'New Pic', new_pic_path %>
         	</li>
         </ul>
       </div>
