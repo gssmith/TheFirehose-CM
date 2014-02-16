@@ -10,6 +10,7 @@
 .sauce {
 	font-family: Fauna One, Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: 100;
+	line-height: 60px;
 }
 h3 {
 	font-family: Garamond, Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
@@ -27,4 +28,9 @@ body{
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+}
+label{
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica, Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
 }

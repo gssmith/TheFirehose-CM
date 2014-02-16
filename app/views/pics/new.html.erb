@@ -1,9 +1,12 @@
-<div class="ice-box span4">
+<div class="ice-box span8 offset3 text-center">
+	<h1 class="sauce">
+		Load up your Antique pics
+	</h1>
 	<%= simple_form_for @pic do |f| %>
-	  <%= f.input :title %>
-	  <%= f.input :message %>
-	  <%= f.input :who %>
-	  <%= f.submit :save %>
+	  <%= f.input :title, label: 'what is the gif about?', placeholder: 'e.g. Resistance is futile, make it so' %>
+	  <%= f.input :message, label: 'what does the gif say?', placeholder: 'say something about this' %>
+	  <%= f.input :who, label: 'Who is this?', placeholder: 'Picard, Q, Data, Deanna, etc.' %>
+	  <%= f.submit :save, :class => 'btn btn-warning btn-large' %>
 	<% end %>
 
 </div>
